@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="teacname">
+        <item>碧萱老師</item>
+        <item>慧妍老師</item>
+        <item>婧琪老師</item>
+        <item>璟雯老師</item>
+        <item>夢婷老師</item>
+        <item>雪怡老師</item>
+        <item>可嵐老師</item>
+    </string-array>
+    <string-array name="descr">
+        <item>工作表現努力，在工作時能以認真、仔細、負責的心度去做好自己的工作</item>
+        <item>語言生動，條理清晰，舉例充分恰當，對待學生嚴格要求，能夠鼓勵學生踴躍發言，使課堂氣氛比較積極熱烈。</item>
+        <item>做事認真仔細，條理清晰，任勞任怨。深得好評</item>
+        <item>授課的方式非常適合我們，他根據本課程知識結構的特點，重點突出，層次分明。理論和實際相結合，通過例題使知識更條理化。</item>
+        <item>對待教學認真負責，語言生動，條理清晰，舉例充分恰當</item>
+        <item>能夠鼓勵學生踴躍發言，使課堂氣氛比較積極熱烈</item>
+        <item>老師授課有條理，有重點，對同學既熱情又嚴格，是各位老師學習的榜樣。</item>
+    </string-array>
+    <string name="m2205_descr">說明:</string>
+    <string name="m2205_t001">選擇:</string>
+    <string name="m2205_t002">講師:</string>
+    <string name="img">圖片</string>
+</resources>

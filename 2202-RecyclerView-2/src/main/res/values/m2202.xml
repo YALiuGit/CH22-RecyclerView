@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_search">搜尋</string>
+    <string name="action_notifications">通知</string>
+    <string name="m2505_demo">Demo示範</string>
+    <string name="m2202_t001">監聽</string>
+</resources>

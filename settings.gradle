@@ -1,0 +1,13 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() // Warning: this repository is going to shut down soon
+    }
+}
+rootProject.name = "CH22-RecyclerView"
+include ':2201-RecyclerView-1'
+include ':2202-RecyclerView-2'
+include ':2203-RecyclerView-3'
+include ':2205-swiperefreshlayout'
