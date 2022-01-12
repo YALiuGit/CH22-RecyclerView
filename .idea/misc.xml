@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/android-work/CH22-RecyclerView/2201-RecyclerView-1/src/main/res/layout/item.xml" value="0.3177083333333333" />
+        <entry key="..\:/android-work/CH22-RecyclerView/2201-RecyclerView-1/src/main/res/layout/itemlayout.xml" value="0.3177083333333333" />
         <entry key="..\:/android-work/CH22-RecyclerView/2201-RecyclerView-1/src/main/res/layout/m2201.xml" value="0.3177083333333333" />
         <entry key="..\:/android-work/CH22-RecyclerView/2201-RecyclerView-1/src/main/res/menu/main.xml" value="0.3177083333333333" />
         <entry key="..\:/android-work/CH22-RecyclerView/2202-RecyclerView-2/src/main/res/layout/itemlayout.xml" value="0.3177083333333333" />
@@ -12,6 +13,10 @@
         <entry key="..\:/android-work/CH22-RecyclerView/2205-swiperefreshlayout/src/main/res/layout/cell_post.xml" value="0.3177083333333333" />
         <entry key="..\:/android-work/CH22-RecyclerView/2205-swiperefreshlayout/src/main/res/layout/m2205.xml" value="0.2994791666666667" />
         <entry key="..\:/android-work/CH22-RecyclerView/2205-swiperefreshlayout/src/main/res/menu/main.xml" value="0.3177083333333333" />
+        <entry key="..\:/android-work/CH22-RecyclerView/2206-OpenData-hotel/src/main/res/layout/cell_post.xml" value="0.3177083333333333" />
+        <entry key="..\:/android-work/CH22-RecyclerView/2206-OpenData-hotel/src/main/res/layout/m2206.xml" value="0.3177083333333333" />
+        <entry key="..\:/android-work/CH22-RecyclerView/2206-OpenData-hotel/src/main/res/menu/main.xml" value="0.3177083333333333" />
+        <entry key="..\:/android-work/CH22-RecyclerView/2206-OpenData-hotel/src/main/res/xml/network_security_config.xml" value="0.3177083333333333" />
       </map>
     </option>
   </component>
