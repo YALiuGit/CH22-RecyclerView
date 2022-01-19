@@ -3,6 +3,8 @@
     <string name="m2206_descr">說明:</string>
     <string name="m2206_t001">選擇:</string>
     <string name="m2206_name">名稱:</string>
+    <string name="m2206_lat">經度:</string>
+    <string name="m2206_lng">緯度:</string>
     <string name="m2206_add">住址:</string>
     <string name="img">圖片</string>
     <string name="opendata">匯入opendata</string>
@@ -17,4 +19,5 @@
     <string name="menu_next">+100</string>
     <string name="menu_back">-100</string>
     <string name="mWebsite">網站</string>
+    <string name="m2206_address">地址:</string>
 </resources>

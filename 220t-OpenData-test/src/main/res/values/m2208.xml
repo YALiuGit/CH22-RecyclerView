@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="m2208_descr">說明:</string>
+    <string name="m2208_t001">選擇:</string>
+    <string name="m2208_name">名稱:</string>
+    <string name="m2208_lat">經度:</string>
+    <string name="m2208_lng">緯度:</string>
+    <string name="m2208_add">住址:</string>
+    <string name="img">圖片</string>
+    <string name="opendata">匯入opendata</string>
+    <string name="title">請稍等</string>
+    <string name="message">執行中...</string>
+    <string name="ncount">共計:</string>
+    <string name="loading">數據載入中......</string>
+    <string name="Zipcode">郵遞區號:</string>
+    <string name="menu_top">跳到首筆</string>
+    <string name="menu_end">跳到尾筆</string>
+    <string name="loadover">重新載入完成</string>
+    <string name="menu_next">+100</string>
+    <string name="menu_back">-100</string>
+    <string name="mWebsite">網站:</string>
+    <string name="start">開始時間:</string>
+    <string name="end">結束時間:</string>
+    <string name="m2208_address">地址:</string>
+</resources>

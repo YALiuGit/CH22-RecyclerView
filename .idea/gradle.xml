@@ -15,6 +15,9 @@
             <option value="$PROJECT_DIR$/2203-RecyclerView-3" />
             <option value="$PROJECT_DIR$/2205-swiperefreshlayout" />
             <option value="$PROJECT_DIR$/2206-OpenData-hotel" />
+            <option value="$PROJECT_DIR$/2207-OpenData-scenicspot" />
+            <option value="$PROJECT_DIR$/2208-OpenData-restaurant" />
+            <option value="$PROJECT_DIR$/220t-OpenData-test" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

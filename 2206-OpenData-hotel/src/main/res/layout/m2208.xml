@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/li00"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Gray"
+    android:orientation="vertical"
+    android:padding="@dimen/Spacing">
+
+    <LinearLayout
+        android:id="@+id/li01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Silver"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="5dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/Teal">
+
+            <TextView
+                android:id="@+id/m2208_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/m2208_name"
+                android:textColor="@color/Navy"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/m2208_map"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="顯示位置" />
+        </TableRow>
+
+        <TextView
+            android:id="@+id/m2208_descr"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_weight="1"
+            android:background="@color/Yellow"
+            android:fadeScrollbars="false"
+            android:maxLines="6"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:scrollbarStyle="outsideInset"
+            android:scrollbars="vertical"
+            android:singleLine="false"
+            android:text="@string/m2208_descr"
+            android:textColor="@color/Navy"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/m2208_lat"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/Yellow"
+            android:fadeScrollbars="false"
+            android:maxLines="6"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:scrollbarStyle="outsideInset"
+            android:scrollbars="vertical"
+            android:singleLine="false"
+            android:text="@string/m2208_lat"
+            android:textColor="@color/Navy"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/m2208_lng"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/Yellow"
+            android:fadeScrollbars="false"
+            android:maxLines="6"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:scrollbarStyle="outsideInset"
+            android:scrollbars="vertical"
+            android:singleLine="false"
+            android:text="@string/m2208_lng"
+            android:textColor="@color/Navy"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/m2208_address"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/Yellow"
+            android:fadeScrollbars="false"
+            android:maxLines="6"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:scrollbarStyle="outsideInset"
+            android:scrollbars="vertical"
+            android:singleLine="false"
+            android:text="@string/m2208_address"
+            android:textColor="@color/Navy"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/u_loading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/White"
+        android:gravity="center"
+        android:text="@string/loading"
+        android:textColor="#DD2C00"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/li01"
+        tools:layout_editor_absoluteX="5dp" />
+
+    <ProgressBar
+        android:id="@+id/pb_loading"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="false"
+        android:progressTint="@color/crimson"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@+id/u_loading"
+        tools:layout_editor_absoluteX="5dp" />
+
+    <TextView
+        android:id="@+id/pb_access"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="讀取進度"
+        android:textColor="@color/Blue"
+        android:textSize="18sp"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@+id/pb_loading"
+        tools:layout_editor_absoluteX="5dp" />
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/laySwipe"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pb_access">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="wrap_content"
+            android:layout_height="670dp">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+    <TableRow
+        android:id="@+id/tb01"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/laySwipe"
+        app:layout_constraintVertical_weight="1"
+        tools:layout_editor_absoluteX="5dp">
+
+        <TextView
+            android:id="@+id/count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:text="@string/ncount"
+            android:textColor="@color/Blue"
+            android:textSize="14sp"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/myname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/myname"
+            android:textColor="@color/Navy"
+            android:textSize="14sp"
+            tools:ignore="TextContrastCheck" />
+
+    </TableRow>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
